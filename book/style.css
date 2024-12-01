@@ -1,0 +1,36 @@
+body { background-color: rgb(201, 201, 201);
+line-height: 70px; }
+    /* Styles for the container */
+    .container {
+        display: flex;
+    }
+
+    /* Styles for the individual divs */
+    .box {
+        flex: 1; /* Each div takes up an equal amount of space */
+        box-sizing: border-box; /* Includes border in the width */
+        margin: 5px; /* Adds some margin between the divs */
+        text-align: center;
+        justify-content: center;
+    }
+    li { list-style: none; }
+
+    .con { background-color: rgb(95, 144, 250);
+        height:45px;
+        margin:10px;
+        border-radius: 10px;
+        border:0px solid white;
+        color:white;
+     }
+    .dec { background-color: rgb(252, 102, 102);
+        height:45px;
+        margin:10px;
+    border-radius: 10px; 
+    border:0px solid white;
+color:white;}
+.box ul li select{
+    height:40px;
+    width:55px;
+border-radius: 10px; 
+}
+    
